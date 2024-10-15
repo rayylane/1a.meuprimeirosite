@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --cor1: rgb(255, 181, 167);
+    --cor2: #fcd5ceff;
+    --cor3: #f8edebff;
+    --cor4: #f9dcc4ff;
+    --cor5: #fec89aff;
+    --fonte-titulo:  "Lora", serif;
+    --fonte-texto: "Montserrat", sans-serif;
+}
+body{
+    background-color: var(--cor2);
+    font-family: var(--fonte-texto);
+}
+h1{
+    background-color: rgb(241, 53, 216);
+}
